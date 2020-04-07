@@ -4,9 +4,9 @@ This project is in support of the Engineers Without Borders GWU Bhutiya Water Ma
 This project will inform the design process for an integrated dam-percolation pond system for the Bhutiya community. This code seeks to estimate expected rainfall, runoff conversion, and thereby the optimal dimensions and design of the proposed system.
 
 This project will be divided into three phases of code. 
-PHASE I -- Predictive Precipitation Model for the useful life of the system, 2020-2070
-PHASE II -- Hydraulic Eq. to Calculate Surface Runoff and Catchment Yield
-PHASE III -- Function to size dam and pond system
+<p>PHASE I -- Predictive Precipitation Model for the useful life of the system, 2020-2070
+<p>PHASE II -- Hydraulic Eq. to Calculate Surface Runoff and Catchment Yield
+<p>PHASE III -- Function to size dam and pond system
 
 
 # Progress Report Notes
