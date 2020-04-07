@@ -25,7 +25,7 @@ Phase III Notes (Tom)
 	Phase III involves the use of equations, and functions in order to determine the dimensions of the percolation pond, anicut system. The first task will be to find the maximum runoff within the given range of years. This maximum runoff will allow the team to develop a percolation pond that can handle the largest inflow of water.
 
 Phase III Notes (Grace)
-The team has created a list of inputs and outputs for Phase III of the project. Phase III can be split into two separate design elements: the reservoir and the anicut/dam. The dam height is first determined from the desired length of the dam based of geographic constraints. It should be noted that there is a maximum height of the dam set at 3m due to the need of construction permits for any height greater. By using these anicut dimensions in part with the runoff data obtained from Phase II, the length of the reservoir shall be found. This relationship can be found below.
+The team has created a list of inputs and outputs for Phase III of the project. As stated above, Phase III can be split into two separate design elements: the reservoir and the anicut/dam. The dam height is first determined from the desired length of the dam based of geographic constraints. It should be noted that there is a maximum height of the dam set at 3m due to the need of construction permits for any height greater. By using these anicut dimensions in part with the runoff data obtained from Phase II, the length of the reservoir shall be found. This relationship can be found below.
 
 Relationship
 Runoff x (Height of Dam x Length of Dam)/c = Length of Reservoir
