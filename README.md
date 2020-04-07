@@ -5,13 +5,13 @@ This project will inform the design process for an integrated dam-percolation po
 
 # Progress Report Notes
 
-Phase I Notes (Olivia):
+**Phase I Notes (Olivia):**
 The team’s project is a three-phase project and each phase has specific inputs and outputs. Sophia and I are working on Phase 1, the precipitation prediction model using time series analysis. I have found precipitation data for East and West Rahjastan, temperature data, and other independent variables that could be used in our model. I have contributed to the team’s literature review, investigating various climate models, the necessary variables, and noting how this research will ultimately aid in creating our model. Throughout this process, I looked at both the modelling methods as well as sources of data. Our team faced the obstacle of obtaining complete and specific data for climate variables for the correct time frame to use as independent variables. I currently in the process of downloading WeatherUnderground data since this service has a summary of climate statistics daily and monthly.
 
 Other preliminary work includes cross validation modelling as well as ensemble method and pipelines to help understand the precipitation data. These models used techniques from CE6800 lessons and expanded upon them. The continuous variable of precipitation was changed to a binary variable based on the month’s precipitation value compared to that month’s average precipitation value for the time range of our data. These models are not as helpful as time series analysis in regard to predicting a continuous variable. I have also used visualization methods to better understand the data, including seaborn, matplotlib, and plotly. I am currently in the process of visualizing the anomalies for temperature and precipitation. 
  
 
-Phase II Notes (Sophia):
+**Phase II Notes (Sophia):**
 	In order to properly size the dam and catchment system (Phase III) given expected rainfall (Phase I), the expected precipitation must be converted to runoff. The catchment yield of the system will be a function of direct runoff dependent on the basic watershed hydrology. The system will not collect the total amount of rainfall falling over the draining area. Instead, catchment yield will be controlled by factors of evaporation, infiltration, depression storage, and canopy interception (to name a few). In equation form the water balance approach looks like this:
 
 Streamflow Q = Precipitation P -  (Transpiration+Evaporation) T - Infiltration I - Soil Storage S	
@@ -21,11 +21,11 @@ Based on preliminary analysis and literature review, it may be necessary to perf
 For the first iteration of the hydraulic model a simple equation was adapted from the Australian Agricultural Ministry (1). 
 Catchment Yield (litres) = Catchment Area (hectares) x Annual Rainfall (mm) x Yield Coefficient
 
-Phase III Notes (Tom)
+**Phase III Notes (Tom)**
 	With the volume of runoff from phase II, as well as the data obtained from google we will be able to utilize code in order to dimension the anicut structure. We will be able to determine the height at which the dam needs to be in order to retain the water, and through the height determine the length of the dam. With the length and height of the dam our team should be able to determine the full dimensions of the dam. Once the anicut structure has been designed, the area of the pond behind the dam can be fully designed, knowing both the maximum height at which the pond can rise, and the full width at which the pond can spread. 
 	Phase III involves the use of equations, and functions in order to determine the dimensions of the percolation pond, anicut system. The first task will be to find the maximum runoff within the given range of years. This maximum runoff will allow the team to develop a percolation pond that can handle the largest inflow of water.
 
-Phase III Notes (Grace)
+**Phase III Notes (Grace)**
 The team has created a list of inputs and outputs for Phase III of the project. As stated above, Phase III can be split into two separate design elements: the reservoir and the anicut/dam. The dam height is first determined from the desired length of the dam based of geographic constraints. It should be noted that there is a maximum height of the dam set at 3m due to the need of construction permits for any height greater. By using these anicut dimensions in part with the runoff data obtained from Phase II, the length of the reservoir shall be found. This relationship can be found below.
 
 Relationship
