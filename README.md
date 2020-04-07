@@ -6,13 +6,16 @@ This project will inform the design process for an integrated dam-percolation po
 # Process Notes
 
 Phase I Notes (Olivia):
+	The team’s project is a three-phase project and each phase has specific inputs and outputs. Sophia and I are working on Phase 1, the precipitation prediction model using time series analysis. I have found precipitation data for East and West Rahjastan, temperature data, and other independent variables that could be used in our model. I have contributed to the team’s literature review, investigating various climate models, the necessary variables, and noting how this research will ultimately aid in creating our model. Throughout this process, I looked at both the modelling methods as well as sources of data. Our team faced the obstacle of obtaining complete and specific data for climate variables for the correct time frame to use as independent variables. I currently in the process of downloading WeatherUnderground data since this service has a summary of climate statistics daily and monthly.
+	Other preliminary work includes cross validation modelling as well as ensemble method and pipelines to help understand the precipitation data. These models used techniques from CE6800 lessons and expanded upon them. The continuous variable of precipitation was changed to a binary variable based on the month’s precipitation value compared to that month’s average precipitation value for the time range of our data. These models are not as helpful as time series analysis in regard to predicting a continuous variable. I have also used visualization methods to better understand the data, including seaborn, matplotlib, and plotly. I am currently in the process of visualizing the anomalies for temperature and precipitation. 
+
 
 Phase II Notes (Sophia):
 	In order to properly size the dam and catchment system (Phase III) given expected rainfall (Phase I), the expected precipitation must be converted to runoff. The catchment yield of the system will be a function of direct runoff dependent on the basic watershed hydrology. The system will not collect the total amount of rainfall falling over the draining area. Instead, catchment yield will be controlled by factors of evaporation, infiltration, depression storage, and canopy interception (to name a few). In equation form the water balance approach looks like this:
 Streamflow Q = Precipitation P -  (Transpiration+Evaporation) T - Infiltration I - Soil Storage S	
 
-Based on preliminary analysis and literature review, it may be necessary to perform Thiessien Polygon or Isohyetal methods of hydraulic modeling to understand how rainfall affects sub-watersheds within the drainage area. Numerous softwares are available online including HEC-HMS and SWAT are currently being investigated as tools to simulate the quality and quantity of surface and ground water and predict the environmental impact of land use, land management practices, and climate change.
-For the first iteration of the hydraulic model a simple equation was adapted from the Australian Agricultural Ministry. 
+	Based on preliminary analysis and literature review, it may be necessary to perform Thiessien Polygon or Isohyetal methods of hydraulic modeling to understand how rainfall affects sub-watersheds within the drainage area. Numerous softwares are available online including HEC-HMS and SWAT are currently being investigated as tools to simulate the quality and quantity of surface and ground water and predict the environmental impact of land use, land management practices, and climate change.
+	For the first iteration of the hydraulic model a simple equation was adapted from the Australian Agricultural Ministry. 
 
 
 
