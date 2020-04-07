@@ -31,11 +31,11 @@ Catchment Yield (litres) = Catchment Area (hectares) x Annual Rainfall (mm) x Yi
 Refer to the notebook HydraulicModel_SERTEL.ipynb for more details.
 
 ## Phase III Notes (Tom)
-	With the volume of runoff from phase II, as well as the data obtained from google we will be able to utilize code in order to dimension the anicut structure. We will be able to determine the height at which the dam needs to be in order to retain the water, and through the height determine the length of the dam. With the length and height of the dam our team should be able to determine the full dimensions of the dam. Once the anicut structure has been designed, the area of the pond behind the dam can be fully designed, knowing both the maximum height at which the pond can rise, and the full width at which the pond can spread. 
-	Phase III involves the use of equations, and functions in order to determine the dimensions of the percolation pond, anicut system. The first task will be to find the maximum runoff within the given range of years. This maximum runoff will allow the team to develop a percolation pond that can handle the largest inflow of water. 
+With the volume of runoff from phase II, as well as the data obtained from google we will be able to utilize code in order to dimension the anicut structure. We will be able to determine the height at which the dam needs to be in order to retain the water, and through the height determine the length of the dam. With the length and height of the dam our team should be able to determine the full dimensions of the dam. Once the anicut structure has been designed, the area of the pond behind the dam can be fully designed, knowing both the maximum height at which the pond can rise, and the full width at which the pond can spread. 
+Phase III involves the use of equations, and functions in order to determine the dimensions of the percolation pond, anicut system. The first task will be to find the maximum runoff within the given range of years. This maximum runoff will allow the team to develop a percolation pond that can handle the largest inflow of water. 
 
 
-References:
+**References:**
 
 (1) Farm Water Calculator: Determining Catchment Yield for Planning Farm Dams. (n.d.). Retrieved April 5, 2020, from http://calculator.agriculture.vic.gov.au/fwcalc/information/determining-catchment-yield-for-planning-farm-dams
 
