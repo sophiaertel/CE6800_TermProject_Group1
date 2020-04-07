@@ -20,6 +20,10 @@ Based on preliminary analysis and literature review, it may be necessary to perf
 For the first iteration of the hydraulic model a simple equation was adapted from the Australian Agricultural Ministry (1). 
 Catchment Yield (litres) = Catchment Area (hectares) x Annual Rainfall (mm) x Yield Coefficient
 
+Phase III Notes (Tom)
+	With the volume of runoff from phase II, as well as the data obtained from google we will be able to utilize code in order to dimension the anicut structure. We will be able to determine the height at which the dam needs to be in order to retain the water, and through the height determine the length of the dam. With the length and height of the dam our team should be able to determine the full dimensions of the dam. Once the anicut structure has been designed, the area of the pond behind the dam can be fully designed, knowing both the maximum height at which the pond can rise, and the full width at which the pond can spread. 
+	Phase III involves the use of equations, and functions in order to determine the dimensions of the percolation pond, anicut system. The first task will be to find the maximum runoff within the given range of years. This maximum runoff will allow the team to develop a percolation pond that can handle the largest inflow of water. 
+
 
 References:
 
